@@ -11,12 +11,7 @@
 #### app体验地址：
 <img src="https://www.yanghujun.com/upload/2020/06/download-853a1fc658cd469ab9ffc32d4e1ac072.png" align="center"/> 
 #### app界面展示
-<img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "200" height = "200" align="left"/>
-<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "200" height = "200"  align="left"/>
+<img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "200" height = "400" align="left"/>
+<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "200" height = "400"  align="left"/>
 
 
-![Image text](https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg)
-![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/my.jpg)
-![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/register.jpg)
-![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/entry.jpg)
-![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/contacts.jpg)
