@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sping_text">
+        <item>全部分类</item>
+        <item>文学</item>
+        <item>小说</item>
+        <item>教育</item>
+        <item>历史</item>
+        <item>人文社科</item>
+        <item>经济管理</item>
+        <item>科学技术</item>
+        <item>政治军事</item>
+        <item>法律</item>
+        <item>生活</item>
+        <item>其它</item>
+    </string-array>
+</resources>

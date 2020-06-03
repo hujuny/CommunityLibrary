@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myblue</item>
+        <item name="colorPrimaryDark">@color/myblue</item>
+        <item name="colorAccent">@color/myblue</item>
+        <item name="android:dropDownListViewStyle">@style/XSpinnerStyle</item>
+    </style>
+
+
+    <style name="myTitleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#26B0F1</item>
+    </style>
+
+
+    <style name="XSpinnerStyle" parent="android:Widget.ListView.DropDown">
+        <!-- 分隔线颜色 -->
+        <item name="android:divider">#f4f4f4</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+
+    <style name="OverflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:paddingRight">0dp</item>
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">#26b0f1</item>
+        <item name="android:background">#26b0f1</item>
+        <!-- 设置弹出菜单文字颜色 -->
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="MyTablayoutstyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/myblue</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/myblue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="fullTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item><!--这行代码使布局占据状态栏空间-->
+        <item name="android:windowFullscreen">true</item>//全屏不显示状态栏
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

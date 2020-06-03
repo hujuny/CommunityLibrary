@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="never"
+        android:id="@+id/manual_entry"
+        android:title="手动录入"/>
+    <item
+        app:showAsAction="never"
+        android:id="@+id/code_entry"
+        android:title="扫码录入"/>
+</menu>

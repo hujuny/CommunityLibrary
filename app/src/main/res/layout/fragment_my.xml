@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".my.MyFragment">
+
+    <TextView
+        style="@style/myTitleTextView"
+        android:text="我的"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/manage_search"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_title"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/touxiang" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/iv_title"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="周杰伦"
+                android:textColor="#000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18609485637"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/my_share"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/tuijian"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:text="推荐给好友"
+            android:textColor="#000"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:src="@mipmap/dibudaohanglan" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#f0eeee" />
+
+
+    <LinearLayout
+        android:id="@+id/my_advice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/suggestion"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:text="意见反馈"
+            android:textColor="#000" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:src="@mipmap/dibudaohanglan" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#f0eeee" />
+
+    <LinearLayout
+        android:id="@+id/my_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/change"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:text="信息修改"
+            android:textColor="#000"
+             />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:src="@mipmap/dibudaohanglan" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#f0eeee" />
+
+    <LinearLayout
+        android:id="@+id/my_upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/shengjipng"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/my_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="在线升级"
+            android:textColor="#000"
+            />
+
+        <ImageView
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:src="@mipmap/dibudaohanglan" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#f0eeee" />
+
+    <LinearLayout
+        android:id="@+id/my_ll_robot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/kefu"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:text="客服助手"
+            android:textColor="#000"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:paddingRight="10dp"
+            android:src="@mipmap/dibudaohanglan" />
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/my_bt_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/login_button_shape"
+        android:padding="10dp"
+        android:text="退出登录"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</LinearLayout>

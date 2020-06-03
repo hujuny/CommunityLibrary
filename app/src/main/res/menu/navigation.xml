@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_library"
+        android:icon="@drawable/item2"
+        android:title="图书馆" />
+
+    <item
+        android:id="@+id/home_manage"
+        android:icon="@drawable/item10"
+        android:title="管理" />
+
+    <item
+        android:id="@+id/home_contacts"
+        android:icon="@drawable/item5"
+        android:title="读者" />
+
+    <item
+        android:id="@+id/home_borrow"
+        android:icon="@drawable/item8"
+        android:title="借还" />
+
+    <item
+        android:id="@+id/home_my"
+        android:icon="@drawable/item4"
+        android:title="我的" />
+
+</menu>

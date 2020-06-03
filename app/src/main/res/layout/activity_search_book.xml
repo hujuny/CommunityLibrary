@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".library.Activity.SearchBookActivity">
+
+
+    <TextView
+        style="@style/myTitleTextView"
+        android:text="图书搜索" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/manage_search">
+
+        <ImageView
+            android:id="@+id/add_iv_search"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/sousuo" />
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/add_et_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:hint="想看什么书？搜一搜"
+            android:textColor="#928a8a"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_book_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <TextView
+            android:id="@+id/tv"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="抱歉，还没有此图书，期待您的录入"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

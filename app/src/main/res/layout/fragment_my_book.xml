@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_book_linear"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/manage_search"
+    tools:context=".manage.fragment.MyBookFragment">
+
+
+
+
+    <Spinner
+        android:id="@+id/my_book_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sping_text"
+        android:paddingLeft="6dp" />
+
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/my_book_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:id="@+id/iv"
+                android:src="@mipmap/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/my_book_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+</LinearLayout>

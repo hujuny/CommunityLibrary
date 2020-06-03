@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book_history_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/manage_search"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/borrow_history_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:maxLines="1"
+                android:id="@+id/borrow_history_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:paddingLeft="5.0dp"
+                android:text="笨办法学Python" />
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="#99000000"
+                android:id="@+id/borrow_history_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingRight="5.0dp"
+                android:text="2020-3-29" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="14sp"
+            android:textColor="#99000000"
+            android:id="@+id/borrow_history_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="5.0dp"
+            android:text="借阅人：18219747421" />
+    </LinearLayout>
+
+</LinearLayout>
