@@ -9,10 +9,10 @@
 * ........
 #### 作者是菜鸟，可能有许多bug未测试出来，恳请大家批评改正！！！大家有好的建议可以给我反馈（QQ:1364115532）.
 #### app体验地址：
-![Image text](https://www.yanghujun.com/upload/2020/06/download-853a1fc658cd469ab9ffc32d4e1ac072.png)
+<img src="https://www.yanghujun.com/upload/2020/06/download-853a1fc658cd469ab9ffc32d4e1ac072.png" align="center"/> 
 #### app界面展示
-<img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "100" height = "200"/>
-<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "100" height = "200"/>
+<img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "200" height = "200" align="left"/>
+<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "200" height = "200"  align="left"/>
 
 
 ![Image text](https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg)
