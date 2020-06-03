@@ -9,7 +9,7 @@
 * ........
 #### 作者是菜鸟，可能有许多bug未测试出来，恳请大家批评改正！！！大家有好的建议可以给我反馈（QQ:1364115532）.
 #### app体验地址：
-![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/download.png)
+![Image text](https://www.yanghujun.com/upload/2020/06/download-853a1fc658cd469ab9ffc32d4e1ac072.png)
 #### app界面展示
 ![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/login.jpg)
 ![Image text](https://github.com/Stephen-hj/CommunityLibrary/blob/master/images/book.jpg)
