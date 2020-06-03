@@ -28,8 +28,8 @@
 ### app界面展示
 <img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "300" height = "400" align="left" />
  
-<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "300" height = "400"  align="left" style="margin-left:20px;"/>
-<img src="https://www.yanghujun.com/upload/2020/06/my-ecbd48f7689f4830858d1d1ae03949c2.jpg" width = "300" height = "400"  align="left" style="margin-left:20px;"/>
+<img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "300" height = "400"  align="left"/>
+<img src="https://www.yanghujun.com/upload/2020/06/my-ecbd48f7689f4830858d1d1ae03949c2.jpg" width = "300" height = "400"  align="left"/>
 
 
 
