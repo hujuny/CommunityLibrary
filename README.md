@@ -26,7 +26,7 @@
 
 
 ### app界面展示
-<div>
+<div align="left">
 <img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "300" height = "360" align="left" />
  
 <img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "300" height = "360"  align="left"/>
