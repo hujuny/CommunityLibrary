@@ -26,10 +26,15 @@
 
 
 ### app界面展示
+<div>
 <img src="https://www.yanghujun.com/upload/2020/06/login-6b965a86277640bf9b5784ffa3172881.jpg" width = "300" height = "360" align="left" />
  
 <img src="https://www.yanghujun.com/upload/2020/06/book-bd32ba8e4a4a40e7889090eef21094da.jpg" width = "300" height = "360"  align="left"/>
 <img src="https://www.yanghujun.com/upload/2020/06/my-ecbd48f7689f4830858d1d1ae03949c2.jpg" width = "300" height = "360"  align="left"/>
+</div>
+
+### 结束语
+作者是菜鸟，可能有许多bug未测试出来，恳请大家批评改正！！！大家有好的建议可以给我反馈（QQ:1364115532）
 
 
 
